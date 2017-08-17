@@ -3,6 +3,7 @@
  *
  * Created: 6/3/2017 1:32:58 PM
  * Author : Benjamin Koshy
+ * Description : Source code for getting input from an SNES controller
  */
 
 #ifndef CONTROLLER_H
@@ -10,12 +11,12 @@
 
 #define B		0x8000
 #define Y		0x4000
-#define Select	0x2000
-#define Start	0x1000
+#define Select	        0x2000
+#define Start	        0x1000
 #define Up		0x0800
-#define Down	0x0400
-#define Left	0x0200
-#define Right	0x0100
+#define Down	        0x0400
+#define Left	        0x0200
+#define Right	        0x0100
 #define A		0x0080
 #define X		0x0040
 #define L		0x0020
